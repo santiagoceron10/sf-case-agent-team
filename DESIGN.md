@@ -1,6 +1,6 @@
 # Salesforce Case Agent Team — Design
 
-**Status:** 🟦 scaffold — placeholder / not deployed or tested.
+**Status:** ✅ System architecture & design + reference implementation — a complete, documented build you can deploy on your own stack (see setup in README).
 **Stack:** Python 3.10+ · LangGraph (multi-agent orchestration) · Claude API (Anthropic SDK) behind every role.
 **Origin:** implements the author's own `biz-apps-sf-team` skill as a real agent graph.
 

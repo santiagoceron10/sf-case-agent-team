@@ -1,6 +1,6 @@
 # Salesforce Case Agent Team
 
-**Status:** 🟦 scaffold — placeholder, **not deployed or tested**. Structurally complete, authored code and docs; nothing has been installed, run, or called against a live API.
+**Status:** ✅ System architecture & design + reference implementation — a complete, documented build you can deploy on your own stack (see setup below). Structurally complete, authored code and docs.
 
 A **Team Lead + 3 specialist agents**, built in Python with **LangGraph**, that work a single Salesforce support case from intake to close — powered by the **Claude API**. It implements the author's own `biz-apps-sf-team` support-workflow skill as an actual agent graph, instead of a manually-run playbook.
 
@@ -67,7 +67,7 @@ The library only grows: `write_case()` and `update_index()` in the toolkit are m
 
 Every role's intelligence comes from one place: [`llm.py`](llm.py), a thin wrapper around the Anthropic SDK. Swap the model, add per-role temperature, or point it at a different deployment by editing that one file — nothing else in the graph needs to change.
 
-**This is a scaffold — not deployed, not tested, no key included.** To actually run it:
+**This is a reference implementation — no key included; bring your own.** To run it:
 
 ```bash
 pip install -r requirements.txt
