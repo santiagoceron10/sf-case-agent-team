@@ -1,0 +1,200 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "lead-box",
+      "type": "rectangle",
+      "x": 480, "y": 110, "width": 440, "height": 100,
+      "strokeColor": "#c4942c", "backgroundColor": "#fff4d6",
+      "fillStyle": "solid", "strokeWidth": 2, "roundness": {"type": 3},
+      "angle": 0, "opacity": 100
+    },
+    {
+      "id": "lead-title",
+      "type": "text",
+      "x": 620, "y": 130, "width": 160, "height": 30,
+      "text": "Team Lead", "fontSize": 22, "fontFamily": 1,
+      "strokeColor": "#7a5c0c", "textAlign": "center"
+    },
+    {
+      "id": "lead-sub",
+      "type": "text",
+      "x": 520, "y": 165, "width": 360, "height": 24,
+      "text": "intake · routes · enforces constraints · composes",
+      "fontSize": 14, "fontFamily": 1, "strokeColor": "#7a5c0c", "textAlign": "center"
+    },
+    {
+      "id": "diag-box",
+      "type": "rectangle",
+      "x": 100, "y": 300, "width": 360, "height": 150,
+      "strokeColor": "#2563eb", "backgroundColor": "#dbeafe",
+      "fillStyle": "solid", "strokeWidth": 2, "roundness": {"type": 3},
+      "angle": 0, "opacity": 100
+    },
+    {
+      "id": "diag-title",
+      "type": "text",
+      "x": 165, "y": 320, "width": 230, "height": 26,
+      "text": "🔧 Technical Diagnostics", "fontSize": 18, "fontFamily": 1,
+      "strokeColor": "#1e3a8a", "textAlign": "center"
+    },
+    {
+      "id": "diag-sub",
+      "type": "text",
+      "x": 120, "y": 356, "width": 320, "height": 70,
+      "text": "Ranked hypotheses · cheapest\nread-only check first ·\nrecommends only",
+      "fontSize": 14, "fontFamily": 1, "strokeColor": "#1e3a8a", "textAlign": "center"
+    },
+    {
+      "id": "desk-box",
+      "type": "rectangle",
+      "x": 520, "y": 300, "width": 360, "height": 150,
+      "strokeColor": "#16824f", "backgroundColor": "#dcf5e3",
+      "fillStyle": "solid", "strokeWidth": 2, "roundness": {"type": 3},
+      "angle": 0, "opacity": 100
+    },
+    {
+      "id": "desk-title",
+      "type": "text",
+      "x": 580, "y": 320, "width": 240, "height": 26,
+      "text": "🎧 Help Desk Communication", "fontSize": 18, "fontFamily": 1,
+      "strokeColor": "#065f46", "textAlign": "center"
+    },
+    {
+      "id": "desk-sub",
+      "type": "text",
+      "x": 560, "y": 356, "width": 300, "height": 50,
+      "text": "Plain-language drafts ·\nearly ack · never sends",
+      "fontSize": 14, "fontFamily": 1, "strokeColor": "#065f46", "textAlign": "center"
+    },
+    {
+      "id": "kb-box",
+      "type": "rectangle",
+      "x": 940, "y": 300, "width": 360, "height": 150,
+      "strokeColor": "#6d28d9", "backgroundColor": "#ede1fa",
+      "fillStyle": "solid", "strokeWidth": 2, "roundness": {"type": 3},
+      "angle": 0, "opacity": 100
+    },
+    {
+      "id": "kb-title",
+      "type": "text",
+      "x": 995, "y": 320, "width": 250, "height": 26,
+      "text": "📚 Knowledge Base Builder", "fontSize": 18, "fontFamily": 1,
+      "strokeColor": "#4c1d95", "textAlign": "center"
+    },
+    {
+      "id": "kb-sub",
+      "type": "text",
+      "x": 950, "y": 356, "width": 340, "height": 70,
+      "text": "Running scaffold every turn ·\nprecedent check · writes at close",
+      "fontSize": 14, "fontFamily": 1, "strokeColor": "#4c1d95", "textAlign": "center"
+    },
+    {
+      "id": "api-box",
+      "type": "rectangle",
+      "x": 100, "y": 500, "width": 1200, "height": 50,
+      "strokeColor": "#71717a", "backgroundColor": "#f4f4f5",
+      "fillStyle": "solid", "strokeWidth": 2, "roundness": {"type": 3},
+      "angle": 0, "opacity": 100
+    },
+    {
+      "id": "api-text",
+      "type": "text",
+      "x": 340, "y": 515, "width": 720, "height": 24,
+      "text": "all three call the Claude API via llm.py  (ANTHROPIC_API_KEY — swap-point)",
+      "fontSize": 15, "fontFamily": 1, "strokeColor": "#3f3f46", "textAlign": "center"
+    },
+    {
+      "id": "kbtool-box",
+      "type": "rectangle",
+      "x": 940, "y": 610, "width": 360, "height": 110,
+      "strokeColor": "#71717a", "backgroundColor": "#f4f4f5",
+      "fillStyle": "solid", "strokeWidth": 2, "roundness": {"type": 3},
+      "angle": 0, "opacity": 100
+    },
+    {
+      "id": "kbtool-title",
+      "type": "text",
+      "x": 1015, "y": 625, "width": 210, "height": 24,
+      "text": "toolkit/kb_library.py", "fontSize": 17, "fontFamily": 1,
+      "strokeColor": "#3f3f46", "textAlign": "center"
+    },
+    {
+      "id": "kbtool-sub",
+      "type": "text",
+      "x": 950, "y": 655, "width": 340, "height": 50,
+      "text": "search_precedent · write_case\nupdate_index  (case-kb/ files)",
+      "fontSize": 14, "fontFamily": 1, "strokeColor": "#3f3f46", "textAlign": "center"
+    },
+    {
+      "id": "footer-text",
+      "type": "text",
+      "x": 260, "y": 760, "width": 880, "height": 50,
+      "text": "Read-only to the outside world: the only tools anywhere in this graph are the KB file ops above.\nNo email send · no ticket post · no Setup/data change tool exists in this repo.",
+      "fontSize": 14, "fontFamily": 1, "strokeColor": "#781818", "textAlign": "center"
+    },
+    {
+      "id": "arrow-in",
+      "type": "arrow",
+      "x": 60, "y": 155, "width": 420, "height": 5,
+      "points": [[0, 0], [420, 0]],
+      "strokeColor": "#1e1e1e", "strokeWidth": 2
+    },
+    {
+      "id": "arrow-lead-diag",
+      "type": "arrow",
+      "x": 640, "y": 210, "width": 360, "height": 90,
+      "points": [[0, 0], [-360, 90]],
+      "strokeColor": "#1e1e1e", "strokeWidth": 2
+    },
+    {
+      "id": "arrow-lead-desk",
+      "type": "arrow",
+      "x": 700, "y": 210, "width": 0, "height": 90,
+      "points": [[0, 0], [0, 90]],
+      "strokeColor": "#1e1e1e", "strokeWidth": 2
+    },
+    {
+      "id": "arrow-lead-kb",
+      "type": "arrow",
+      "x": 760, "y": 210, "width": 360, "height": 90,
+      "points": [[0, 0], [360, 90]],
+      "strokeColor": "#1e1e1e", "strokeWidth": 2
+    },
+    {
+      "id": "arrow-diag-api",
+      "type": "arrow",
+      "x": 280, "y": 450, "width": 0, "height": 50,
+      "points": [[0, 0], [0, 50]],
+      "strokeColor": "#1e1e1e", "strokeWidth": 2
+    },
+    {
+      "id": "arrow-desk-api",
+      "type": "arrow",
+      "x": 700, "y": 450, "width": 0, "height": 50,
+      "points": [[0, 0], [0, 50]],
+      "strokeColor": "#1e1e1e", "strokeWidth": 2
+    },
+    {
+      "id": "arrow-kb-api",
+      "type": "arrow",
+      "x": 1120, "y": 450, "width": 0, "height": 50,
+      "points": [[0, 0], [0, 50]],
+      "strokeColor": "#1e1e1e", "strokeWidth": 2
+    },
+    {
+      "id": "arrow-api-kbtool",
+      "type": "arrow",
+      "x": 1120, "y": 550, "width": 0, "height": 60,
+      "points": [[0, 0], [0, 60]],
+      "strokeColor": "#1e1e1e", "strokeWidth": 2
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "viewBackgroundColor": "#faf9f6"
+  },
+  "files": {}
+}
